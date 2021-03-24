@@ -133,3 +133,12 @@ img{
 	height: 15%;
 	width: 15%;
 }
+
+@media screen 
+	and (device-width: 360px)
+	and (device-height: 640px)
+	and (-webkit-device-pixel-ratio: 3){
+		.front-face{
+			width: 40px;
+		}
+	}
